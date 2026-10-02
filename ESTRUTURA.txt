@@ -1,0 +1,14 @@
+ESTRUTURA.txt
+README.txt
+docs/AUDITORIA.txt
+docs/AUDITORIA_OVR_2026_FINAL.txt
+package.json
+src/assets/icons/fm_career_2026.ico
+src/assets/images/fm_cover_2026.png
+src/main/main.js
+src/renderer/css/loading.css
+src/renderer/css/style.css
+src/renderer/index.html
+src/renderer/js/game.js
+src/renderer/js/loading.js
+src/renderer/screens/loading.html
