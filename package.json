@@ -1,0 +1,37 @@
+{
+  "name": "fm-career-2026",
+  "version": "26.4.1",
+  "description": "FM Career 2026 - jogo de gerenciamento de futebol",
+  "main": "src/main/main.js",
+  "author": "FM Career 2026",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^38.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.fmcareer2026.game",
+    "productName": "FM Career 2026",
+    "files": [
+      "src/**/*",
+      "docs/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "icon": "src/assets/icons/fm_career_2026.ico"
+    }
+  },
+  "dependencies": {
+    "firebase": "^12.19.0"
+  }
+}
